@@ -1,0 +1,83 @@
+.get-started{
+  background-color: #6888FF;
+  padding: 91px 0;
+
+  &:before,
+  &:after{
+    @extend %bg-default;
+
+    position: absolute;
+    content: '';
+    display: block;
+  }
+
+  &:before{
+    background-image: url("../assets/images/Group-28.1.png");
+    z-index: 1;
+    width: 247px;
+    height: 319px;
+    top: 5010px;
+    left: 54px;
+  }
+
+  &:after{
+    background-image: url("../assets/images/Group-28.png");
+    width: 425px;
+    height: 186px;
+    left: 926px;
+    top: 5190px;
+  }
+
+  &__subtitle,
+  &__title{
+    font-weight: $medium-font-weight;
+    color: $white-color;
+  }
+
+  &__subtitle{
+    font-family: $main-font;
+    font-size: $font-xs;
+    margin-bottom: 16px;
+  }
+
+  &__title{
+    font-family: $font-quicksand;
+    font-size: $font-xxl;
+    margin-bottom: 28px;
+  }
+
+  &__description{
+    font-family: $main-font;
+    font-weight: $normal-font-weight;
+    font-size: $font-md;
+    color: $white-color;
+    max-width: 712px;
+    line-height: 28px;
+    margin: 0 auto;
+  }
+
+  &__info{
+    margin-bottom: 28px;
+  }
+
+  &__white-btn,
+  &__blue-btn{
+    border-radius: 2px;
+    font-family: $font-quicksand;
+    font-size: $font-sm;
+    padding: 13px 17px;
+  }
+
+  &__white-btn{
+    color: #565F82;
+    background-color: $white-color;
+    font-weight: $semibold-font-weight;
+  }
+
+  &__blue-btn{
+    color: #C7D3FF;
+    background-color: transparent;
+    border:1px solid #C7D3FF;
+    font-weight: $medium-font-weight;
+  }
+}

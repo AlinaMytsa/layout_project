@@ -1,0 +1,33 @@
+
+@media (max-width: $media-clients) {
+  .our-clients{
+    &__row{
+      gap: 70px;
+
+    }
+  }
+}
+@media (max-width: $media-clients2) {
+  .our-clients{
+    &__row{
+      gap:50px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width:$media-clients3) {
+  .our-clients{
+    &__row{
+      gap: 30px;
+    }
+  }
+}
+@media (max-width: $media-clients4) {
+.our-clients {
+  &__row{
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+}

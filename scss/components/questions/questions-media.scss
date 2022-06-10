@@ -1,0 +1,29 @@
+.questions{
+
+  @media (max-width: $media-plan2) {
+    padding: 130px 0;
+  }
+
+  @media (max-width: $media-plan4) {
+    padding: 90px 0;
+  }
+
+  @media (max-width: $media-users5) {
+    padding: 50px 0;
+
+    &__subitem{
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &__subitem-text,
+    &__link{
+      width: 100%;
+    }
+
+    &__link{
+      text-align: center;
+    }
+  }
+
+}

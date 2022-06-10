@@ -1,0 +1,79 @@
+.plan{
+  background-color: $plan__background-color;
+  padding: $padding-about-block;
+
+
+
+  &__illustration{
+    position: relative;
+
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 653px;
+    }
+  }
+
+
+  &__items{
+    width: 50%;
+  }
+
+
+  &__secondary-heading,
+  &__heading{
+    font-weight: $medium-font-weight;
+    color: $plan__accent-color;
+    margin-bottom: 27px;
+  }
+
+
+  &__secondary-heading{
+    font-family: $main-font;
+    font-size: $font-xs;
+  }
+
+
+  &__heading{
+    font-family: $font-quicksand;
+    font-size: $font-xl;
+  }
+
+
+  &__description{
+    font-family: $main-font;
+    font-weight: $normal-font-weight;
+    font-size: $font-md;
+    color: $accent-color;
+    line-height: 28px;
+    margin-bottom: 47px;
+    max-width: 413px;
+  }
+
+
+  &__button1,
+  &__button2{
+    font-family: $font-quicksand;
+    font-size: $font-sm;
+    border-radius: 2px;
+  }
+
+
+  &__button1{
+    background-color: $plan__button-bg-color;
+    border-color: $plan__button-bg-color;
+    color: $white-color;
+    font-weight: $semibold-font-weight;
+    gap: 6px ;
+    padding: 13px 25px;
+  }
+
+
+  &__button2{
+    border: 1px solid $plan-btn-color;
+    font-weight: $medium-font-weight;
+    color: $second-grey-color;
+    padding: 12px 21px;
+  }
+}

@@ -1,0 +1,12 @@
+
+@media (max-width: $media-banner) {
+  .banner{
+    &__secondary-heading{
+      padding-top: 45px;
+    }
+    &__main-heading{
+      font-size: 47px;
+      line-height: 45px;
+    }
+  }
+}

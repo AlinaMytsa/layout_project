@@ -1,0 +1,92 @@
+.blog {
+  background-color: #F5F8FF;
+  padding: 104px 0;
+
+  &__titles {
+    margin-bottom: 92px;
+  }
+
+  &__subtitle,
+  &__title {
+    font-weight: $medium-font-weight;
+    color: $plan__accent-color;
+  }
+
+  &__subtitle {
+    font-size: $font-sm;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-family: $font-quicksand;
+    font-size: $font-xl;
+    font-weight: $normal-font-weight;
+  }
+
+  .container-md {
+    background-color: $white-color;
+    border: 1px solid #D8E3FE;
+    padding: 63px 35px;
+    margin-bottom: 100px;
+  }
+
+  &__left-side,
+  &__right-side {
+    width: 50%;
+  }
+
+  &__content {
+    gap: 67px;
+  }
+
+  &__heading {
+    font-family: $font-quicksand;
+    font-weight: $normal-font-weight;
+    font-size: $font-xl;
+    color: $plan__accent-color;
+    margin-bottom: 32px;
+  }
+
+  &__description {
+    font-size: $font-md;
+    line-height: 26px;
+    color: $accent-color;
+    margin-bottom: 32px;
+  }
+
+  &__links {
+    gap: 23px;
+    align-items: center;
+  }
+
+  &__btn {
+    padding: 13px 16px;
+    background-color: $second-btn-bg;
+    color: $second-btn-color;
+    border-radius: 2px;
+  }
+
+  &__link {
+    color: #A6B6DA;
+  }
+
+  &__controls {
+    gap: 12px;
+    transform: translateX(-50%);
+
+    &-item {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #d1d6e3;
+
+      &:hover,
+      &-active {
+        background-color: #5283ff;
+        transition: .3s;
+        cursor: pointer;
+      }
+    }
+  }
+
+}

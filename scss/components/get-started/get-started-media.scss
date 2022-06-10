@@ -1,0 +1,21 @@
+.get-started{
+  @media (max-width: $media-plan){
+    &:after,
+    &:before{
+      background-image: none;
+    }
+  }
+
+  @media (max-width: $media-blog) {
+    &__btn{
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__white-btn,
+    &__blue-btn{
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+body{
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: $font-md;
+}
+
+main{
+  margin-top: $header-height;
+}
+.container-lg,
+.container-md{
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-lg{
+  max-width: $container-lg-width;
+}
+
+.container-md{
+  max-width: $container-md-width;
+}
+
+a{
+  color: $accent-color;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p{
+  color: $accent-color;
+}
+
+.row{
+  display: flex;
+}
+
+.col{
+  width: 100%;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-end{
+  justify-content: flex-end;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.direction-row{
+  flex-direction: row;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-unstyled{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

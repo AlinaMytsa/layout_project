@@ -1,0 +1,61 @@
+.quotes{
+  padding: 110px 0;
+  background-color: #EAF0FF;
+
+  &__right-side,
+  &__left-side{
+    width: 50%;
+  }
+
+  &__img1{
+    min-width: 423px;
+  }
+
+  &__controls{
+    gap: 12px;
+
+    &-item{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #d1d6e3;
+
+      &:hover,
+      &-active{
+        background-color: $secondary-accent-color;
+        transition: .3s;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__side{
+    gap: 132px;
+  }
+
+  &__subtitle,
+  &__title{
+    color: $plan__accent-color;
+    font-weight: $medium-font-weight;
+  }
+
+  &__subtitle{
+    font-weight: $medium-font-weight;
+    font-size: $font-xs;
+    margin-bottom: 31px;
+  }
+
+  &__title{
+    font-family: $font-quicksand;
+    font-weight: $medium-font-weight;
+    font-size: $font-lg;
+    margin-bottom: 14px;
+  }
+
+  &__description{
+    font-family: $font-open-sans;
+    font-weight: $medium2-font-weight;
+    font-size: $font-sm;
+  }
+
+}

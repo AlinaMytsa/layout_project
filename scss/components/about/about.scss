@@ -1,0 +1,97 @@
+.about{
+  background: url('../assets/images/clouds1.svg') 400px 80px no-repeat;
+  background-position: center;
+  padding: $padding-about-block;
+  text-align: center;
+
+  &__secondary-heading,
+  &__heading{
+    color: $plan__accent-color;
+    font-weight: $medium_font-weight;
+  }
+
+  &__headings{
+    margin-bottom: 92px;
+  }
+
+
+  &__secondary-heading{
+    font-family: $main-font;
+    font-size: $font-xs;
+    margin-bottom: 20px;
+  }
+  &__heading{
+    font-family: $font-quicksand;
+    font-size: $font-lg;
+  }
+  &__item{
+    width: calc(100%/4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__row{
+    gap: 67px;
+    margin-bottom: 92px;
+  }
+  &__images{
+    margin:0 0 33px 0;
+
+  }
+  &__h2{
+    margin-bottom: 25px;
+    font-family: $font-open-sans;
+    font-weight: $semibold-font-weight;
+    font-size: $font-md;
+    color: $open-sans-color;
+  }
+  &__description{
+    font-family: $font-open-sans;
+    font-weight: $medium2-font-weight;
+    font-size: $font-xs;
+    line-height: 20px;
+    color: $grey-color;
+    max-width: 140px;
+  }
+  &__buttons{
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+  }
+
+  &__or{
+    font-family: $font-open-sans;
+    font-weight: $medium2-font-weight;
+    font-size: $font-xs;
+    color: $grey-color;
+  }
+
+
+  &__first-btn,
+  &__second-btn{
+    font-family: $font-quicksand;
+    font-weight: $semibold-font-weight;
+    font-size: $font-sm;
+    padding: 13px 15px;
+
+  }
+  &__first-btn{
+    background-color: $first-btn-bg;
+    color: $first-btn-color;
+
+    &:hover{
+      background-color: $first-btn-color;
+      color:$first-btn-bg ;
+    }
+  }
+  &__second-btn{
+    background-color: $second-btn-bg;
+    color: $second-btn-color;
+
+    &:hover{
+      background-color:$second-btn-color ;
+      color: $second-btn-bg;
+    }
+
+  }
+}

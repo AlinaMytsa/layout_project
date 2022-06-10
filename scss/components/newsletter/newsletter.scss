@@ -1,0 +1,52 @@
+.newsletter {
+
+  padding: 120px 0;
+  border-bottom: 1px solid $light-gradient;
+
+  &__row {
+    gap: 110px;
+  }
+
+  &__title {
+    font-size: $font-middle;
+    color: $plan__accent-color;
+    margin-bottom: 18px;
+  }
+
+  &__description {
+    font-family: $main-font;
+    font-size: $font-md;
+    color: $accent-color;
+    max-width: 330px;
+  }
+
+  &__title,
+  &__label,
+  &__btn {
+    font-family: $font-quicksand;
+    font-weight: $semibold-font-weight;
+  }
+
+  &__form {
+    gap: 14px;
+  }
+
+  &__input {
+    padding: 21px 0 21px 23px;
+    font-size: $font-md;
+    color: #7A85AD;
+    border-radius: 5px;
+    border: none;
+    background-color: $light-gradient;
+  }
+
+  &__btn {
+    background-color: #4D6CE1;
+    border-radius: 5px;
+    color: $white-color;
+    font-size: $font-md;
+    padding: 20px 62px;
+    border: none;
+  }
+
+}
